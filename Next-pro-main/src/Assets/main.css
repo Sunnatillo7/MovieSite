@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.show-button{
+  transition:all 0.4s ;
+}
+.wrapper:hover > .show-button{
+  transform: translateY(0);
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.active{
+  color: aqua;
+}
